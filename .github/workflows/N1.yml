@@ -51,7 +51,7 @@ jobs:
       run: |
         cd /opt/openwrt_packit
         
-        wget  https://github.com/fe6520/FusionWRT_x86_x64/releases/download/$version/openwrt-armvirt-64-default-rootfs.tar.gz
+        wget  https://github.com/fe6520/FusionWRT_x86_x64/releases/download/2022.01.13-Lean1/openwrt-armvirt-64-default-rootfs.tar.gz
                 
     - name: Check Files
       run: |
